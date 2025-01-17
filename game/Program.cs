@@ -3,7 +3,7 @@ using System.Threading;
 
 class DinoRunGame
 {
-    private const char Dino = '^';    // Dino representation
+    private const char Dino = 'D';    // Dino representation
     private const char Obstacle = '#'; // Obstacle representation
     private const char EmptySpace = ' '; // Empty space
 
@@ -15,6 +15,8 @@ class DinoRunGame
     private static int jumpHeight = 4; // How high the dino can jump
     private static int currentJumpHeight = 0;
     private static bool gameOver = false;
+
+    
 
     static void Main(string[] args)
     {
